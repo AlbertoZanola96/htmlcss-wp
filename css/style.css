@@ -19,6 +19,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.color-text {
+    color: #BEBEBE;
+}
  /* / common */
 
 /* header  */
@@ -89,15 +93,16 @@ body {
 /* inizio main-bottom */
 .main-bottom {
     height: 500px;
-    background-color: #0186FE;
-    z-index: 2;
 }
 
 .head {
     width: 100%;
     height: 100px;
-    background-color: #ABCFE7;
-    z-index: 1;
+    padding-top: 40px;
+}
+
+h2 {
+    font-size: 35px;
 }
 .sidebar,
 .center {
@@ -108,12 +113,31 @@ body {
 }
 
 .sidebar {
-    width: calc(100% / 4);
-    padding: 15px;
+    position: relative;
+    width: 25%;
+    padding: 15px 0;
 }
 
+#img-left {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}   
+
+.overlay-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    margin: 15px 0 210px 0;
+    border-radius: 10px;
+}
+
+
 .center {
-    width: calc((100% / 4) * 2 - 30px);
+    width: calc(50% - 30px);
     margin-left: 15px;
     margin-right: 15px;
     padding: 15px;
