@@ -23,6 +23,17 @@ body {
 .color-text {
     color: #BEBEBE;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    }
+    
  /* / common */
 
 /* header  */
@@ -125,15 +136,8 @@ h2 {
     object-fit: cover;
 }   
 
-.overlay-2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.2);
+.foto-2 {
     margin: 15px 0 267px 0;
-    border-radius: 10px;
 }
 
 .center {
@@ -152,26 +156,12 @@ h2 {
     object-fit: cover;
 }  
 
-.overlay-3 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.2);
+.foto-3 {
     margin: 15px 15px 381px 15px;
-    border-radius: 10px;
 }
 
-.overlay-4 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.2);
+.foto-4 {
     margin: 15px 0 286px 0;
-    border-radius: 10px;
 }
 /* fine main bottom */
 
